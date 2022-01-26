@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.primary{
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    background: #83827f;
+}
+.primary-p{
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    background: #83827f;
+}
+.btn{
+    background-color: #ffc107!important;
+    color: white !important;
+    border: 2px solid #ffc107;
+}
+.navbar{
+    background-color: rgba(33, 37, 41, .2);
+    background: none;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+}
+.nav-content a{
+    margin: 10px 10px;
+    padding: 10px 5px;
+    color: white;
+    font-weight: 100;
+}
+.navbar-groups{
+    margin-left: 50vh;
+}
+.navbar a:hover{
+    color: #ffc107 !important;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #ffc107;
+}
+#text{
+    margin-top: 40vh;
+}
+.info-about{
+    width: 75%;
+    padding: 20px 10px;
+}
+.back-img{
+     background-image: url(../img/ss1.jpg);
+    background-color: rgba(255, 255, 255, 0);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    border-width: 0px;
+    height: 80vh;
+    border-color: rgb(234, 233, 233);
+    border-style: solid;
+    background-size: cover;
+    opacity: .9;
+}
+.contact-us h2{
+    padding: 5px 0px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    color: black;
+    font-size: 2rem;
+    line-height: 1.31;
+    font-weight: 200;
+}
+.info-about{
+    background-color: rgba(128, 128, 128, 0.295)
+}

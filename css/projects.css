@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.primary{
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    background: #83827f;
+}
+.primary-p{
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    background: #83827f;
+}
+.btn{
+    background-color: #ffc107!important;
+    color: white !important;
+}
+.navbar{
+    background-color: rgba(33, 37, 41, .2);
+    background: none;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+}
+.nav-content a{
+    margin: 10px 10px;
+    padding: 10px 5px;
+    color: white;
+    font-weight: 100;
+}
+.navbar-groups{
+    margin-left: 50vh;
+}
+.navbar a:hover{
+    color: #ffc107 !important;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #ffc107;
+}
+#text{
+    margin-top: 40vh;
+}
+.info-about{
+    width: 75%;
+    padding: 20px 10px;
+}
+.back-img{
+     background-image: url(../img/ss.jpg);
+    background-color: rgba(255, 255, 255, 0);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    border-width: 0px;
+    height: 80vh;
+    border-color: rgb(234, 233, 233);
+    border-style: solid;
+    background-size: cover;
+    opacity: .9;
+}
+.contact-us h2{
+    padding: 5px 0px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    color: black;
+    font-size: 2rem;
+    line-height: 1.31;
+    font-weight: 200;
+}
+.our-info{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:  10vh 2vh;
+    padding:  10vh 20vh;
+    border-radius: 15px;
+    background-color: #ffc107;
+    font-size: 1em;
+    text-align: center;
+}
+#our-inf0-mid{
+    background-color: rgb(33, 37, 41);
+    color: white;
+}
+.container.grid-1, img{
+    width: 54vh;
+    height: 50vh;
+    margin: 3vh;
+    border-radius: 15px;
+    transition: transform 1s; /* Animation */
+}
+.container.grid-1, img:hover{
+    
+  transform: scale(1.1);
+}
+.project-glanse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0px;
+
+}
+.project-glanse h1{
+    font-size: 2.5em;
+    font-weight: 200;
+    line-height: 3;
+    text-align: center;
+    width: 70vh;
+}
+.project-glanse p{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    width: 60%;
+}

@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* text-align: center; */
+}
+.navbar{
+    background-color: rgba(33, 37, 41, .2);
+    background: none;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+}
+.nav-content a{
+    margin: 10px 10px;
+    padding: 10px 5px;
+    color: white;
+    font-weight: 100;
+}
+.navbar-groups{
+    margin-left: 50vh;
+}
+.navbar a:hover{
+    color: #ffc107 !important;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #ffc107;
+}
+.back-img{
+    background-image: url(../img/client-review.jpg);
+   background-color: rgba(255, 255, 255, 0);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-blend-mode: overlay;
+   border-width: 0px;
+   height: 60vh;
+   border-color: rgb(234, 233, 233);
+   border-style: solid;
+   background-size: cover;
+   opacity: .9;
+}
+.reviews h1{
+    font-size: 45px;
+    font-weight: 200;
+    padding: 5vh 5vh;
+    margin: 10vh 0vh;
+    width: 80vh;
+    border-bottom: 1px solid gray;
+}
+.client-reeviews img{
+    width: 322px;
+    height: 400px;
+    border-radius: 20px ;
+    transition: transform 1s; /* Animation */
+}
+.client-reeviews img:hover{
+    transform: scale(1.1);
+}
+.client-reeviews h2{
+    font-weight: 200;
+}
+.reviews-1{
+    border-radius: 15px;
+}
+.contact-us{
+    padding: 5vh 0vh;
+    margin: 5vh 0vh;
+}
+.contact-us h2{
+    padding: 5px 0px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    color: black;
+    font-size: 2rem;
+    line-height: 1.31;
+    font-weight: 200;
+}
